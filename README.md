@@ -1,2 +1,2 @@
-# Basic-System-Verification
+# 4-step test design technique tool
 tools
