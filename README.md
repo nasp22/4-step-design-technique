@@ -41,14 +41,40 @@ $ Expected outcome(s) for age: 17, 18, 19
 
 ### Step 3: Generate combinations
 All possible combinations of the specified conditions and their inputs are generated here.
-
+```
+Combinations made in step 3:
+('inside', 'valid', '0', 'yes')
+('inside', 'valid', '0', 'no')
+('inside', 'valid', '2', 'yes')
+('inside', 'valid', '2', 'no')
+('inside', 'valid', '5', 'yes')
+('inside', 'valid', '5', 'no')
+('inside', 'unvalid', '0', 'yes')
+('inside', 'unvalid', '0', 'no')
+('inside', 'unvalid', '2', 'yes')
+('inside', 'unvalid', '2', 'no')
+('inside', 'unvalid', '5', 'yes')
+('inside', 'unvalid', '5', 'no')
+('outside', 'valid', '0', 'yes')
+('outside', 'valid', '0', 'no')
+('outside', 'valid', '2', 'yes')
+('outside', 'valid', '2', 'no')
+('outside', 'valid', '5', 'yes')
+('outside', 'valid', '5', 'no')
+('outside', 'unvalid', '0', 'yes')
+('outside', 'unvalid', '0', 'no')
+('outside', 'unvalid', '2', 'yes')
+('outside', 'unvalid', '2', 'no')
+('outside', 'unvalid', '5', 'yes')
+('outside', 'unvalid', '5', 'no')
+```
 
 ### Step 4: Define expected outcomes for each combination
 **4.1 Choose the expected output for each combination from the options provided.**  
 For each combination, a list of the expected outcomes set in Step 1 is given.
-
-Combination: ('16', 'valid')
-Choose from: approved, denied
+```
+$ Combination: ('16', 'valid')
+$ Choose from: approved, denied
 $ Expected outcome of combination above: denied
 ```
 .... continue with each combination
