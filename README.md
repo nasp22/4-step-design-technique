@@ -35,14 +35,11 @@ $Expected outcome(s) for balance: true, false
 ```
 $Expected outcome(s) for age: 17, 18, 19
 ```
-
 ## Step 3: Generate combinations
 All possible combinations of the specified conditions and their inputs are generated here.
 
-```
-
-### Step 4: Define expected outcomes for each combination
-1. Choose the expected output for each combination from the options provided.  
+## Step 4: Define expected outcomes for each combination
+**4.1 Choose the expected output for each combination from the options provided.**  
 For each combination, a list of the expected outcomes set in Step 1 is given.
 
 Combination: ('16', 'valid')
