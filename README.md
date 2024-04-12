@@ -11,32 +11,32 @@ Example scenario: Payment is approved if the user is authenticated, has enough b
 **1.1 Action:** 
 Specify the action to be tested.  
 ```
-$ Action: payment
+$ Action: <payment>
 ```
 
 **1.2 Expected Outcomes:** 
 Specify all the expected results(returns) of the action.  
 ```
-$ Expected outcome(s): approved, denied
+$ Expected outcome(s): <approved, denied>
 ```
 
 ### Step 2: Define conditions
 **2.1 Conditions:** 
 Specify the conditions to be tested.  
 ```
-$ Expected condition(s): auth, balance, age 
+$ Expected condition(s): <auth, balance, age> 
 ```
 
 **2.2 Insert the input to test for each condition.**
 Specify the inputs to test for each condition.
 ```
-$ Expected outcome(s) for auth: true, false
+$ Expected outcome(s) for auth: <true, false>
 ```
 ```
-$ Expected outcome(s) for balance: true, false
+$ Expected outcome(s) for balance: <true, false>
 ```
 ```
-$ Expected outcome(s) for age: 17, 18, 19
+$ Expected outcome(s) for age: <17, 18, 19>
 ```
 
 ### Step 3: Generate combinations
@@ -75,7 +75,7 @@ For each combination, a list of the expected outcomes set in Step 1 is given.
 ```
 $ Combination: ('16', 'valid')
 $ Choose from: approved, denied
-$ Expected outcome of combination above: denied
+$ Expected outcome of combination above: <denied>
 ```
 .... continue with each combination
 
