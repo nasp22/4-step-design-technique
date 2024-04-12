@@ -24,19 +24,19 @@ $ Expected outcome(s): approved, denied
 **2.1 Conditions:** 
 Specify the conditions to be tested.  
 ```
-$Expected condition(s): auth, balance, age 
+$ Expected condition(s): auth, balance, age 
 ```
 
 **2.2 Insert the input to test for each condition.**
 Specify the inputs to test for each condition.
 ```
-$Expected outcome(s) for auth: true, false
+$ Expected outcome(s) for auth: true, false
 ```
 ```
-$Expected outcome(s) for balance: true, false
+$ Expected outcome(s) for balance: true, false
 ```
 ```
-$Expected outcome(s) for age: 17, 18, 19
+$ Expected outcome(s) for age: 17, 18, 19
 ```
 
 ### Step 3: Generate combinations
@@ -55,7 +55,8 @@ $ Expected outcome of combination above: denied
 
 ### Result is presented:
 ```
-**************  RESULT  **************
+
+$ **************  RESULT  **************
           Combinations   payment
 0     (true, true, 17)    denied
 1     (true, true, 18)  approved
