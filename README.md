@@ -74,7 +74,7 @@ Combinations made in step 3:
 **4.1 Choose the expected output for each combination from the options provided.**  
 For each combination, a list of the expected outcomes set in Step 1 is given.
 ```
-$ Combination: ('16', 'valid')
+$ Combination: ('true', 'true', '17') 
 $ Choose from: approved, denied
 $ Expected outcome of combination above: <denied>
 ```
