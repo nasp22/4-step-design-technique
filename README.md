@@ -96,7 +96,7 @@ $ Expected outcome of combination above: <denied>
 ```
 
 $ **************  RESULT  **************
-          Combinations   payment
+          Conditions     payment
 0     (true, true, 17)    denied
 1     (true, true, 18)  approved
 2     (true, true, 19)  approved
