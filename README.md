@@ -3,15 +3,16 @@
 This generator helps you to create test cases for various scenarios based on one(!) action with multiple returns and specified conditions and their expected outcomes.
 It follows the 4-step method to guide you through the test case generation process.
 
-## Setup
+## Setup and executing
 
-To run this program, you need to have the following dependency installed:
-
-- [pandas](https://pandas.pydata.org/): A powerful data analysis and manipulation library for Python.
-
-You can install this dependency using pip. Run the following command:
+**1. Install this dependency:**
 ```
 $ pip install pandas
+```
+**2. Run the Program:**
+After installing the dependencies, you can run the program by executing file:
+```
+$python 4step.py
 ```
 
 ## Steps to Follow:
