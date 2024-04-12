@@ -4,7 +4,7 @@ This generator helps you to create test cases for various scenarios based on one
 
 ## Steps to Follow:
 
-Example scenario: Payment is approved if the user is authenticated, has enough balance and is over 18 years old
+Example scenario: Payment is approved if the user is authenticated, has enough balance and is >= 18 years old
 
 ### Step 1: Define action and expected outcomes
 
