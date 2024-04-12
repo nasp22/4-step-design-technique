@@ -89,5 +89,5 @@ print('')
 print('')
 
 print('\n**************  RESULT  **************')
-df = pd.DataFrame(expected_results.items(), columns=['Combinations', ', '.join(action)])
+df = pd.DataFrame(expected_results.items(), columns=['Conditions', ', '.join(action)])
 print(df)
