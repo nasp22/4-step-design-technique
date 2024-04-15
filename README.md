@@ -1,6 +1,6 @@
 # Test Case Generator README
 
-This generator helps you to create test cases for various scenarios based on one(!) action with multiple returns and specified conditions and their expected outcomes.
+This generator helps you to create test cases for various scenarios in unit testing based on one(!) action with multiple returns and specified conditions and their expected outcomes.
 It follows the 4-step method to guide you through the test case generation process.
 
 ## Setup and executing
